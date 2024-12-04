@@ -48,13 +48,13 @@ console.log("cond1 && cond2",cond1 || cond2);
 console.log("e<f ",!(e<f)); //this make it negation 
 
 //////////////////////////////////////////////////////////////
+//Ternary Operator
+// only operator that take 3 operant
 
-//conditional statement
-// if 
+//condition ? true output : false output;
 
-let age = 23;
-if(age >18){
-    console.log("can vote")
-}
+age = 18;
 
-//if else
+let result = age < 23 ? "adult" : "senior";
+
+console.log(result);
