@@ -18,6 +18,6 @@ const student = {
 
 // can update th evalue of key in const object
 console.log(student);
-console.log(student["mark"]);
+console.log(student["mark"]+1);
 console.log(typeof student);
 
