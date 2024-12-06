@@ -29,4 +29,4 @@ console.log(output);
 //for next line
 console.log("nikhil\nkashyap")
 //for Tab
-console.log("nikhil\tkashyap") //
+console.log("nikhil\tkashyap") //tab
