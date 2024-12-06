@@ -8,12 +8,11 @@
 ///////////////////////////////////////////////////////////
 
  let x = 0;
-// let y =0;
+ let y =0;
 for(let value of arr){
-    x++
+
+     y += arr[x]
+     x++
     
-    console.log(arr[x])
-
-
 }
-//console.log(x)
+console.log(y)
