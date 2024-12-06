@@ -6,13 +6,13 @@
 // console.log(a)
 
 ///////////////////////////////////////////////////////////
+//uSING FOR OF LOOP
 
  let x = 0;
  let y =0;
 for(let value of arr){
 
      y += arr[x]
-     x++
-    
+     x++   
 }
 console.log(y)
