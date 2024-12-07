@@ -16,11 +16,3 @@ for(let value of arr){
      x++   
 }
 console.log(y)
-let x = 0;
-let y =0;
-for(let value of arr){
-
-    y += arr[x]
-    x++   
-}
-console.log(y)
