@@ -15,4 +15,4 @@ for(let value of arr){
      y += arr[x]
      x++   
 }
-console.log(y)
+console.log(y) 
