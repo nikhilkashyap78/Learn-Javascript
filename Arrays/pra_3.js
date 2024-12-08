@@ -26,3 +26,4 @@ for(let i=0; i<itm.length; i++){
     console.log(itm2[idx2])
     idx2++
 }
+console.log(itm) 
