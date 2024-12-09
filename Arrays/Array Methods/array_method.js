@@ -12,3 +12,7 @@ console.log(foodItems)
 deletedItem = foodItems.pop();
 console.log(foodItems)
 console.log(deletedItem) //print deleted item
+
+//toString
+//create new string
+console.log(foodItems.toString()); //create the new string from the array
