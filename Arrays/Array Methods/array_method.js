@@ -48,11 +48,13 @@ console.log(arr1)
 let car = ["bmw", "audi", "farari", "thar"];
 console.log(car)
 
-console.log(car.slice(0,2));
+//console.log(car.slice(0,2));
 
 //splice() : change orignal array (add, remove, replace)
 //splice(startIdx, delCount, newElement....)
+let no = [3,5,72,4,6];
 
-console.log(car.splice(0,2,"omni"))
+ab =no.splice(0,3,43)
+console.log(ab)
  
   
