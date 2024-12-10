@@ -54,7 +54,7 @@ console.log(car)
 //splice(startIdx, delCount, newElement....)
 let no = [3,5,72,4,6];
 
-ab =no.splice(0,3,43)
-console.log(ab)
+no.splice(0,3,43);
+console.log(no);
  
   
