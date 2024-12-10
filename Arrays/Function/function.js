@@ -24,3 +24,5 @@ myFunction(); //call the function
 function myFun(){
     console.log("nik")
 }
+
+myFun();
