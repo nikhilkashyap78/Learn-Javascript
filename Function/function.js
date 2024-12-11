@@ -32,6 +32,28 @@ myFun("nik"); //argument
 
 //////////////////////////////////////////////////
 
+//2 no. sum
+function sum(a,b){
 
+    console.log(a+b);
+
+}
+//sum(4,5) //take as input
+
+
+//////////////////////////////////////////////////
+
+function sum(a,b){ //function variabe have block scope
+
+    let s=a+b; //local variable
+
+    return s; //return this to where it get call,
+              //nothing get executed after the return
+
+}
+let val = sum(4,5) //take as input
+console.log(val)
+
+ ////////////////////////////////////////////////
 
  
