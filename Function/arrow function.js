@@ -7,16 +7,16 @@
 
 ///////////////////////////////////////////////////////
 
-const arrowSum = (a,b) => {
-    console.log(a+b);
+const arrowSum = (a, b) => {
+  console.log(a + b);
 };
-arrowSum(3,5)
-console.log(arrowSum)
+arrowSum(3, 5);
+console.log(arrowSum);
 
 ///////////////////////////////////////////////////
 
-arroemul = (a,b) => {
-    return a*b;
-} 
+arroemul = (a, b) => {
+  return a * b;
+};
 
-console.log(arroemul(3,4))
+console.log(arroemul(3, 4));

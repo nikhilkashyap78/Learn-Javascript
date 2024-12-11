@@ -3,17 +3,17 @@
 
 let foodItems = ["Apple", "Mango", "Orange"];
 
-foodItems.push("banana","abc")
+foodItems.push("banana", "abc");
 
-console.log(foodItems)
+console.log(foodItems);
 
 ///////////////////////////////////////////////////////////
-//pop() -delete 
+//pop() -delete
 //change in exiting array
 
 deletedItem = foodItems.pop();
-console.log(foodItems)
-console.log(deletedItem) //print deleted item
+console.log(foodItems);
+console.log(deletedItem); //print deleted item
 
 ///////////////////////////////////////////////////////////
 //toString()
@@ -24,8 +24,8 @@ console.log(foodItems.toString()); //create the new string from the array
 //concat()
 //create new array
 
-let arr1 = ["a","d","ww","we"];
-let arr2 = ["ds","sdf","df"];
+let arr1 = ["a", "d", "ww", "we"];
+let arr2 = ["ds", "sdf", "df"];
 
 let arr3 = arr1.concat(arr2);
 console.log(arr3);
@@ -33,11 +33,11 @@ console.log(arr3);
 ////////////////////////////////////////////////////////////////
 //unshift() : add elelment in begnining
 a = arr1.unshift("aaaa");
-console.log(arr1)
+console.log(arr1);
 
 //shift() : delete at start
 b = arr1.shift();
-console.log(arr1)
+console.log(arr1);
 
 //////////////////////////////////////////////////////////////////
 
@@ -46,15 +46,13 @@ console.log(arr1)
 //No change in orignal array
 
 let car = ["bmw", "audi", "farari", "thar"];
-console.log(car)
+console.log(car);
 
 //console.log(car.slice(0,2));
 
 //splice() : change orignal array (add, remove, replace)
 //splice(startIdx, delCount, newElement....)
-let no = [3,5,72,4,6];
+let no = [3, 5, 72, 4, 6];
 
-no.splice(0,3,43);
+no.splice(0, 3, 43);
 console.log(no);
- 
-  
