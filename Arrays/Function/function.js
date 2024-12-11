@@ -20,9 +20,18 @@ function myFunction(){ //define function
 myFunction(); //call the function
 
 /////////////////////////////////////////////////////////
+//NaN = not a number
 
-function myFun(){
-    console.log("nik")
+function myFun(msg){ //parameter -> input
+  
+    console.log(msg)
 }
 
-myFun();
+myFun("nik"); //argument
+
+
+//////////////////////////////////////////////////
+
+
+
+ 
