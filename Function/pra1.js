@@ -14,7 +14,8 @@ function countVowels(str) {
       count++;
     }    
   } 
-  return count;
+  console.log(count)
+  //return count;
 }
 
 countVowels("nikhil");
