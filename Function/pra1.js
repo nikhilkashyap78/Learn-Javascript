@@ -10,12 +10,11 @@ function countVowels(str) {
       char === "o" ||
       char === "u"
     ) {
-      console.log(count);
+      //console.log(count);
       count++;
-    }
-    console.log(char);
-  }
-  console.log(count);
+    }    
+  } 
+  return count;
 }
 
 countVowels("nikhil");
