@@ -8,3 +8,10 @@ let num = [4,6,2,5,8,3,2];
 num.map((val) => {
     console.log(val)
 })
+
+
+
+a = num.map((val) => {
+    return val*2
+})
+console.log(a)
