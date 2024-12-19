@@ -9,8 +9,7 @@ num.map((val) => {
     console.log(val)
 })
 
-
-
+//double the value
 a = num.map((val) => {
     return val*2
 })
