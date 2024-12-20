@@ -1,0 +1,32 @@
+Window Objects:
+
+The window Objects represent an open window in a browser's Objects.
+It is broweser's Objects. (not JavaScript's)
+
+It is a GLOBAL Objects with lots of properties & methods.
+
+/////////////////////////////////////////////////////////////
+
+We can access hrml through JS with help of DOCUMENT(Objects)
+that are created in Window
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
