@@ -11,7 +11,10 @@ body{
 
 button{
     color: rgb(255, 170, 0);
-    
-    
 }
 
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
