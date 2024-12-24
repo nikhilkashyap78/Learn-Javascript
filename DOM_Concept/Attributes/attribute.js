@@ -8,7 +8,7 @@ console.dir(div);
 
 let id = div.getAttribute("id");
 console.log(id);
- 
+
 console.log(div.setAttribute("id", "new_box"));
 
 
