@@ -13,7 +13,7 @@ console.log(id);
 
 ///////////////////////////////////////////////////
 
-//Style
+//Style: node.style
 
 let div1 = document.querySelector("div");
 div1.style.backgroundColor = "orange"
