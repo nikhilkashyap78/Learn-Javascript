@@ -18,3 +18,15 @@ button{
     color: rgb(255, 255, 255);
     font-size: small;
 }
+
+.box1{
+    color: rgb(86, 86, 86);
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    text-align: center;
+    margin:10%;
+    outline: auto;
+    outline-color:coral;
+    padding-top: 4%;
+}
