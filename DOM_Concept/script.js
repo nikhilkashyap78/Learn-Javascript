@@ -71,8 +71,33 @@ btn2.addEventListener("click",handler4);
 btn2.removeEventListener("click", handler4);
 
 
+//////////////////////////////////////////////////////////////
 
+//Practise Problem
 
+let toggle = document.querySelector("#toggle");
+
+let currMod = "dark"
+toggle.addEventListener("click", ()=>{
+
+  if(currMod==="dark"){
+    currMod = "light";
+    console.log("light")
+    document.querySelector("body").style.backgroundColor = "white"
+    document.querySelector("#h1").style.webkitTextFillColor = "orange"
+
+    document.querySelector("#box").style.webkitTextFillColor = "gray"
+
+    
+    //document.querySelector("body").style.webkitTextFillColor = "black"
+  }
+  else{
+    currMod = "dark"
+    console.log("dark")
+    document.querySelector("body").style.backgroundColor = "black"
+    document.querySelector("body").style.webkitTextFillColor = "white"
+  }
+});
 
 
 
