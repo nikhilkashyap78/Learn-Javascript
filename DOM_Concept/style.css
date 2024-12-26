@@ -19,7 +19,7 @@ button{
     font-size: small;
 }
 
-.box1{
+#box1{
     color: rgb(86, 86, 86);
     height: 100px;
     width: 100px;
