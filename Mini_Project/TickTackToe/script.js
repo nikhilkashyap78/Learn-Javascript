@@ -38,8 +38,14 @@ const checkWinner = () => {
         let pos2Val = boxes[pattern[1]].innerText;
         let pos3Val = boxes[pattern[2]].innerText;
 
-        if(pos1Val === "" || pos2Val === "" || pos3Val === ""){
-            continue;
+        //Check if all 3 positions are not empty
+        if(pos1Val != "" || pos2Val != "" || pos3Val != ""){
+            if (pos1Val == pos2Val && pos2Val == pos3Val){
+               console.log("Winner", pos1Val);
+               
+                
+            }
+            
         }
     }
 }
