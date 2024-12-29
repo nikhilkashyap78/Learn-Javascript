@@ -30,6 +30,10 @@ boxes.forEach((box) => {
     });
 });
 
+const sowWinner = (winner) => {
+    
+}
+
 const checkWinner = () => {
 
     //check if any player has won
@@ -42,10 +46,8 @@ const checkWinner = () => {
         if(pos1Val != "" || pos2Val != "" || pos3Val != ""){
             if (pos1Val == pos2Val && pos2Val == pos3Val){
                console.log("Winner", pos1Val);
-               
-                
+               sowWinner(pos1Val);         
             }
-            
         }
     }
 }
