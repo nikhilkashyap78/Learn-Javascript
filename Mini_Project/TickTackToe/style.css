@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #FFCAD4;
+    background-color: #B0D0D3;
     font-family: Arial, sans-serif;
 }
 
@@ -30,4 +30,25 @@ body{
 .box{
     height: 18vh;
     width: 18vh;
+    border-radius: 1.5vh;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    color:#C08497
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #7ddcff;
+    color: #fff;
+    border-radius: 1.5vh;
+    border: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
