@@ -6,6 +6,11 @@
 body{
     background-color: #B0D0D3;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container{
@@ -51,4 +56,30 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+#playAgain{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #7ddcff;
+    color: #fff;
+    border-radius: 1.5vh;
+    border: none;
+    
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    padding-top: 10vh;
+}
+.msgContainer{
+    padding-bottom: 5%;
+}
+
+.hide{
+    display: none;
 }

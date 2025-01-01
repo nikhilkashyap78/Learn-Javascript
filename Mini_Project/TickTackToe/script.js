@@ -1,5 +1,8 @@
 let boxes = document.querySelectorAll('.box');
-let resetBtn = document.querySelector('.reset');
+let resetBtn = document.querySelector('#reset');
+let newGmeBtn = document.querySelector('#playAgain');
+let msgContainer = document.querySelector('.msgContainer');
+let msg = document.querySelector('.msg');
 
 let turnO = true; //playerX , playerO
 
@@ -8,6 +11,9 @@ const winPatterns = [
     [0, 3, 6], [1, 4, 7], [2, 5, 8], //columns
     [0, 4, 8], [2, 4, 6] //diagonals
 ]
+
+//Reset the game
+resetGame
 
 //Add event listener and swith player
 boxes.forEach((box) => {
@@ -30,9 +36,17 @@ boxes.forEach((box) => {
     });
 });
 
+// const disabledBoxes = () =>{
+//     for (let box of boxes){
+//         box.disabled = true;
+//     }
+// };
+
 const showWinner = (winner) => {
-    
-}
+    msg.innerText = `Player ${winner} has won!`;
+    msgContainer.classList.remove('hide');
+   //disabledBoxes();
+};
 
 const checkWinner = () => {
 
@@ -51,3 +65,4 @@ const checkWinner = () => {
         }
     }
 }
+
