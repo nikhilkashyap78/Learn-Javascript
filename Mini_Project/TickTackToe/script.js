@@ -13,7 +13,11 @@ const winPatterns = [
 ]
 
 //Reset the game
-resetGame
+resetGame = ()=>{
+    turnO = true;
+    enabledBoxes();
+    msgContainer.classList.add('hide');
+}
 
 //Add event listener and swith player
 boxes.forEach((box) => {
@@ -36,16 +40,23 @@ boxes.forEach((box) => {
     });
 });
 
-// const disabledBoxes = () =>{
-//     for (let box of boxes){
-//         box.disabled = true;
-//     }
-// };
+const disabledBoxes = () =>{
+     for (let box of boxes){
+         box.disabled = true;
+     }
+ };
+
+ const enabledBoxes = () =>{
+    for (let box of boxes){
+        box.disabled = false;
+        box.innerText = "";
+    }
+};
 
 const showWinner = (winner) => {
     msg.innerText = `Player ${winner} has won!`;
     msgContainer.classList.remove('hide');
-   //disabledBoxes();
+    disabledBoxes();
 };
 
 const checkWinner = () => {
@@ -66,3 +77,8 @@ const checkWinner = () => {
     }
 }
 
+drawfun = ()=>{
+    
+}
+newGmeBtn.addEventListener('click', resetGame);
+resetBtn.addEventListener('click', resetGame);

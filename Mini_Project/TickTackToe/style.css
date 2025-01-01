@@ -65,7 +65,10 @@ main{
     color: #fff;
     border-radius: 1.5vh;
     border: none;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .msg{
