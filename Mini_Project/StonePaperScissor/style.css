@@ -11,12 +11,61 @@ h1{
     line-height: 5rem;
 }
 
+.choice:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 50%;
+    
+}
+
 .choice{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 img{
-    height: 150px;
-    width: 150px;
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 8rem;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+#userScore, #ComScore{
+    margin: 0 5rem;
+    font-size: 3rem;
+}
+
+.msgContainer{
+    margin-top: 3rem;
+
+}
+
+#msg{
+    background-color: rgb(255, 90, 39);
+    color: white;
+    font-size: 3rem;
+    display:inline-block;
+    border-radius: 0.5rem;
+
 }
