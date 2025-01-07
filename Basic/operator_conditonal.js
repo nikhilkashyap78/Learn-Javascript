@@ -1,6 +1,6 @@
 //operator in JS
 // Arithmetic Operator
-// 
+ 
 
 let a =5; b = 5;
 // console.log("sum = ",a+b)
@@ -48,6 +48,8 @@ console.log("cond1 && cond2",cond1 || cond2);
 console.log("e<f ",!(e<f)); //this make it negation 
 
 //////////////////////////////////////////////////////////////
+
+
 //Ternary Operator
 // only operator that take 3 operant
 

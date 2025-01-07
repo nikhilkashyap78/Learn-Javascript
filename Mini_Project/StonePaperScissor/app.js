@@ -2,6 +2,7 @@ let userScore = 0;
 let comScore = 0;
 
 const choices = document.querySelectorAll(".choice");
+const msg = document.querySelector("#msg");
 
 const generateCompChoice = () => {
     const options = ["rock", "paper", "scissor"];
@@ -11,7 +12,19 @@ const generateCompChoice = () => {
 
 const drawGame = () => {
     console.log("Game was Draw");
-}
+    msg.innerHTML = "Game was Draw";
+};
+
+const showWinner = (userWin) => {
+    if(userWin){
+        console.log("User Wins");
+        msg.innerHTML = "You Wins";
+    }
+    else{
+        console.log("Computer Wins");
+        msg.innerHTML = "Computer Wins";
+    }
+};
 
 const playGame = (userChoice) => {
         console.log("user choice", userChoice);
@@ -19,18 +32,32 @@ const playGame = (userChoice) => {
         const compChoice = generateCompChoice();
         console.log("comp choice", compChoice);
 
-        if(userChoice===compChoice){
+        if(userChoice === compChoice){
             //draw game
             drawGame();
+            
         }else{
-            //userWins
+                //userWins
             let userWin = true;
 
-            if()
+            if(userChoice === "rock"){
+                //scissor paper
+                userWin = compChoice === "paper" ? false : true;
+            }
+            else if(userChoice === "paper"){
+                //rock scissor
+                userWin = compChoice === "scissor" ? false : true;
+            }
+            else {
+                //rock paper
+                userWin = compChoice === "rock" ? false : true;
+            }
+            showWinner(userWin);
 
-        }
+        };
+        
 
-}
+};
 
 choices.forEach((choice) => {
 
