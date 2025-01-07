@@ -23,7 +23,11 @@ const playGame = (userChoice) => {
             //draw game
             drawGame();
         }else{
-            //user
+            //userWins
+            let userWin = true;
+
+            if()
+
         }
 
 }
