@@ -4,6 +4,9 @@ let comScore = 0;
 const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
 
+const userScor = document.querySelector("#userScor");
+const comScor = document.querySelector("#comScor");
+
 const generateCompChoice = () => {
     const options = ["rock", "paper", "scissor"];
     const randIdx = Math.floor(Math.random() * 3);
@@ -17,13 +20,18 @@ const drawGame = () => {
 
 const showWinner = (userWin) => {
     if(userWin){
+        userScore++;
+        userScor.innerHTML = userScore;
         console.log("User Wins");
         msg.innerHTML = "You Wins";
     }
+
     else{
+        comScore++;
+        comScor.innerHTML = comScore;
         console.log("Computer Wins");
         msg.innerHTML = "Computer Wins";
-    }
+    };
 };
 
 const playGame = (userChoice) => {
@@ -61,7 +69,7 @@ const playGame = (userChoice) => {
 
 choices.forEach((choice) => {
 
-    choice.addEventListener("click",()=>{
+    choice.addEventListener("mouseover",()=>{
 
         const userChoice = choice.getAttribute("id");
         playGame(userChoice);
