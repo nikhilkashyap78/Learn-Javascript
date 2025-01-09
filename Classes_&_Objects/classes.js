@@ -12,6 +12,11 @@
 
 class myCar{
 
+    constructor(){
+        console.log("Creating new obj");
+        this.brand = "Audi";
+    }
+
     start(){
         console.log("Car started");
     }
@@ -24,17 +29,22 @@ class myCar{
     }
 }
 
-let fortuner = new myCar();
+let fortuner = new myCar(); //Constructor invoke
 fortuner.setBrand("Frotuner");
 
-let bmw = new myCar();
+let bmw = new myCar(); //Constructor invoke
 bmw.setBrand("BMW");
+
+let audi = new myCar("audi");
+//Initialize brand in constructor itself.
 
 
 //Constructor() 
+
 // - It is a special method in class.
 // - It is called when obj is created.
 // - It is used to initialize obj.
 // - It is called only once.
 // - It is optional.
 // Invoked using new keyword.
+
