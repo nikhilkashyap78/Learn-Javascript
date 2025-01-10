@@ -42,3 +42,18 @@ let nikObj = new engineer();
 // Super keyword: It is used to call parent class constructor
 // It is used to call parent class method & properties.
 
+super(args) //call parent class constructor
+
+class Person{
+    constructor(name){
+    }
+}
+
+class men extends Person{
+    constructor(name, empId){
+        super(name); //calling parent class constructor
+        this.empId = empId;
+    }
+}
+
+let nik1 = new men("Nik", 123);  
