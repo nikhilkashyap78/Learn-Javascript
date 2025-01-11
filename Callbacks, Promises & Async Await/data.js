@@ -24,7 +24,7 @@ setTimeout(() => {            //other way to write function(arrow fun)
 }, 5000)
 
 
- 
+setTimeout(() => {console.log('World')}, 5000)
 
 
 
