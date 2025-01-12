@@ -20,7 +20,9 @@ function api(){
 
         setTimeout(() => {
             console.log('API called');
+
         resolve(200);
+        
         },2000)   
     });
 }
@@ -28,5 +30,7 @@ function api(){
 async function myFunc() {
     await api(); //1st
     await api(); //2nd
-    
+    await api(); //3rd
+    await api(); //4th
+    await api(); //5th
 }
