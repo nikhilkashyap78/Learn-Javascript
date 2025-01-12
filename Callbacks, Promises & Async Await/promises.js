@@ -8,7 +8,11 @@
                                 //function with 2 handeler resolve and reject
 //Syntax: let promise = new Promise((resolve, reject) => {...});
 
-let promise = new promise((resolve, reject) => {
+let promise = new Promise((resolve, reject) => {
     console.log('Promise started');
+    resolve(123);
+    reject("error")
 });
+
+
 
