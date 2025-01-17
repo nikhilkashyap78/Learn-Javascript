@@ -17,3 +17,7 @@
 
 // 1. Response (JSON)
 // 2. convert to JS Object
+
+// json() method : returns a promise that resolves with the result of parsing the body text as JSON.
+// (Input is json string, Output is JS Object)
+
